@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "343823146719",
+    "project_id": "fliplk",
+    "storage_bucket": "fliplk.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343823146719:android:a204a8e28eb03bd07e536a",
+        "android_client_info": {
+          "package_name": "com.pixeleye.fliplk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343823146719-1ms74qnr3vq2f2g7ejk4ddvnglg0fm39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pixeleye.fliplk",
+            "certificate_hash": "e075f2baadae9946a3ce479bcf2b2736fcebc4f3"
+          }
+        },
+        {
+          "client_id": "343823146719-2pf995dilp9ea16iqlsj8nlps2moe98c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pixeleye.fliplk",
+            "certificate_hash": "6a5942dc740d7afb954c1a6ac97d244b57a45a04"
+          }
+        },
+        {
+          "client_id": "343823146719-itt2brridpe9r9g0nun0m0ja2gv3qni3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChRW0prWbJ-GhJTpxdRjSt5gHr8DsDHhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343823146719-itt2brridpe9r9g0nun0m0ja2gv3qni3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343823146719:android:df2b982428a145347e536a",
+        "android_client_info": {
+          "package_name": "com.pixeleye.welandapola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343823146719-20jun98kkkbjilcqjjlg168cg57h86re.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pixeleye.welandapola",
+            "certificate_hash": "e075f2baadae9946a3ce479bcf2b2736fcebc4f3"
+          }
+        },
+        {
+          "client_id": "343823146719-itt2brridpe9r9g0nun0m0ja2gv3qni3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChRW0prWbJ-GhJTpxdRjSt5gHr8DsDHhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343823146719-itt2brridpe9r9g0nun0m0ja2gv3qni3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
