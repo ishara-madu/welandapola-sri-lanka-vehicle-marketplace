@@ -1,51 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Tab Switching Logic
-    const tabs = {
-        'privacy': { btn: document.getElementById('btn-privacy'), panel: document.getElementById('panel-privacy') },
-        'terms': { btn: document.getElementById('btn-terms'), panel: document.getElementById('panel-terms') }
-    };
-
-    window.switchTab = function(tabKey) {
-        if (!tabs[tabKey]) return;
-
-        // Reset all tabs
-        Object.keys(tabs).forEach(key => {
-            tabs[key].btn.classList.remove('active');
-            tabs[key].panel.classList.remove('active');
-        });
-
-        // Set active tab
-        tabs[tabKey].btn.classList.add('active');
-        tabs[tabKey].panel.classList.add('active');
-
-        // Scroll to docs container
-        const docsSection = document.getElementById('docs');
-        if (docsSection) {
-            docsSection.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
-
-    // Attach click handlers to tab buttons
-    Object.keys(tabs).forEach(key => {
-        tabs[key].btn.addEventListener('click', () => switchTab(key));
-    });
-
-    // Navigation links routing to specific tabs
-    document.getElementById('nav-privacy').addEventListener('click', (e) => {
-        e.preventDefault();
-        switchTab('privacy');
-    });
-
-    document.getElementById('nav-terms').addEventListener('click', (e) => {
-        e.preventDefault();
-        switchTab('terms');
-    });
-
-
-
-
-
-    // 3. Navigation Highlighting on Scroll
+    // 1. Navigation Highlighting on Scroll
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('nav a:not(.btn-download)');
 
